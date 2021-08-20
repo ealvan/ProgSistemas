@@ -1,0 +1,9 @@
+Lista de Palabras con sus ocurrencias : 
+amor - 4
+calor - 3
+color - 1
+elefante - 3
+gelatina - 1
+honor - 3
+pato - 2
+postre - 3

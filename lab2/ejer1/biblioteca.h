@@ -1,0 +1,1 @@
+int biblioteca(int, int);

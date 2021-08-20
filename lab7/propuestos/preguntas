@@ -1,0 +1,64 @@
+10.¿Qué se imprime al ejecutar el siguiente programa? 
+	main()
+	{   int x[]={3,88,6,67,99};
+	    while(*x<=90) 
+		printf("%d  ",*x++);
+	} 
+	01) 3  88  6  67  99 
+	02) 99 67  6  88  3
+	04) 3  88 6  67 *****************
+	08) 99
+
+9.La función:
+	void fun(unsigned char *cad1,unsigned char *cad2)
+	{
+		while (*cad2++=*cad1++);
+	}
+	01) Copia la cadena cad2 en la cadena cad1.
+****02) Copia la cadena cad1 en la cadena cad2. 
+	04) Copia la cadena cad2 en la cadena cad1 excepto el caracter '\0'.
+	08)Copia la cadena cad1 en la cadena cad2 excepto el caracter '\0'.
+
+8. ¿Para qué sirve la función sizeof?:
+****a) 	Calcula el número de bytes de un tipo de dato o variable 
+	b) 	Calcula el número de elementos de un vector
+	c) 	Calcula la cantidad de espacio libre en memoria
+
+7. ¿Cuándo se emplea reserva dinámica de memoria?:
+
+	*****a) 	Cuando tenemos que reservar memoria y no conocemos el tamaño necesario hasta el momento de la ejecución. 
+	b) 	Cuando conocemos el tamaño de los vectores a reservar
+	c) 	Siempre
+
+6. Si una función tiene el prototipo
+
+	void funcion(int * vector), ¿cómo podría ser la llamada a la función?
+
+	a) 	funcion(vector); *******
+	b) 	funcion(int vector);
+	c) 	funcion(int * vector);
+
+5. Si p es un puntero, ¿qué representa el nombre de un vector cuando escribimos p=vector?:
+******	a) 	la dirección de memoria donde se encuentra el primer elemento del vector 
+	b) 	El valor del primer elemento del vector
+	c) 	Representa todos los valores de todos los elementos del vector
+
+4. Si p contiene la dirección de x ¿Cómo no le asigno el valor 0 a x empleando el puntero?:
+	a) 	*p=0; 
+	b) 	p*=0; *********
+
+3. ¿Cómo no se asigna a un puntero p la dirección de una variable x?:
+	a) 	p=&x; 
+	b) 	*p=x;
+
+	ambas
+2. ¿Cómo no se declara un puntero a entero?:
+
+	a) 	int p *; 
+	b) 	int p*=NULL;
+	ambas
+
+1. ¿Qué almacena un puntero?:
+	a) 	El valor de una variable
+	b) 	Un vector 
+	ninguna

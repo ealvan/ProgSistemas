@@ -1,0 +1,11 @@
+Primero
+$VALUES = para recuperar el valor de una avariabler
+unset VARIABLE = delete varible del programa
+
+READ_ONLY
+read_only VARIABLE // significa que es inmutable su valor(constantte)
+NAME ="A"
+readonly NAME
+NAME = "Qaridi"// This variable is read only!!! te dira
+
+
